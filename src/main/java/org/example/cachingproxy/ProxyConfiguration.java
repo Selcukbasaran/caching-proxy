@@ -10,7 +10,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Configuration
 public class ProxyConfiguration {
 
-    @Value("${origin:http://dummyjson.com}")
+    @Value("${origin:https://dummyjson.com}")
     private String originUrl;
 
     @Bean
